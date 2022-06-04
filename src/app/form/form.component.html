@@ -1,0 +1,16 @@
+<form [formGroup]="formIn4">
+    <h2 class="text-center">Điền thông tin tại đây</h2>
+    <div class="form-group">
+        <h5 for="">Họ Tên :</h5>
+        <input type="text" name="" id="" formControlName="name">
+    </div>
+    <div class="form-group">
+        <h5 for="">Địa Chỉ :</h5>
+        <input type="text" name="" id="" formControlName="address">
+    </div>
+    <div class="form-group">
+        <h5 for="">Số điện thoại :</h5>
+        <input type="text" name="" id="" formControlName="sdt">
+    </div>
+    <button type="submit" (click)="submitF()" routerLink="/" class="btn btn-info">Submit</button>
+</form>
